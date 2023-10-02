@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    double ip;
+    printf("Input the number\n");
+    scanf("%lf", &ip);
+    if(ip>0)
+    printf("The number is positive");
+    if(ip<0)
+    printf("The number is negative");
+    if(ip==0)
+    printf("Zero is neither positive or negative");
+    return 0;
+}
